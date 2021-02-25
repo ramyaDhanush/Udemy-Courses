@@ -1,6 +1,28 @@
 # Udemy-Courses
 A repo to hold my udemy course materials &amp; exercises
 
+# NodeJS Dependencies
+
+**Libraries**
+1. A JAvascript Engine (V8 Engine) - Written in C++
+2. An asynchronous code handler (Libuv - Written in C) - A library that implements Node.JS event loop and all of the asynchronous behaviours of the platform.
+
+**Tools**
+npm
+
+**Key Terms**
+
+1. Thread : 
+   - The smallest sequence of programmed instructions to be executed(to do list). 
+   - A thread can be called as **V8 call stack**.
+2. NodeJS Process : Contains Thread
+3. Libuv : 
+   - A tool that enforces an asynchronous, event driven style of programming.
+   - It's core job is to provide an event loop.
+4. Event Loop:
+   - Allows Node.Js to perform non-blocking I/O operations. 
+   - By offloading operations to the system kernel whenever possible.
+
 # Basics of NodeJS
 
 1. To create a server, import **http**
