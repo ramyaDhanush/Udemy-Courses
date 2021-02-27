@@ -1,0 +1,58 @@
+[
+  {
+    "name": "hunterjt13",
+    "address": {
+      "city": "Lake Meaganton",
+      "state": "Idaho",
+      "street": "2831 Kevin Knolls",
+      "zip": "10914-3394"
+    },
+    "email": "ythompson@hotmail.com"
+  },
+  {
+    "name": "Eugene B",
+    "address": {
+      "city": "Crystalmouth",
+      "street": "3924 Mosley Burg Suite 602",
+      "zip": "14969"
+    },
+    "email": "harrissummer@hotmail.com"
+  },
+  {
+    "name": "Kevin M. W",
+    "address": {
+      "city": "Burgessborough",
+      "street": "83248 Woods Extension",
+      "zip": "47201"
+    },
+    "email": "murillobrian@cox.net"
+  },
+  {
+    "name": "Drake T",
+    "address": {
+      "city": "Nicholsbury",
+      "state": "Indiana",
+      "street": "699 Ryan Branch Apt. 371",
+      "zip": "52277"
+    },
+    "email": "cindy93@gmail.com"
+  },
+  {
+    "name": "Jarrad C",
+    "address": {
+      "city": "Anthonyhaven",
+      "street": "41441 Galvan Lights Apt. 820",
+      "zip": "53666"
+    },
+    "email": "sboyd@yahoo.com"
+  },
+  {
+    "name": "Matthew Samuel",
+    "address": {
+      "city": "Jamesfurt",
+      "street": "4961 Obrien Keys",
+      "zip": "19133"
+    },
+    "email": "teresabrown@yahoo.com"
+  }
+]

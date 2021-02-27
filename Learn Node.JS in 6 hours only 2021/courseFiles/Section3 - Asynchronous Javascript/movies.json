@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+  "title": "Once Upon a Time in the West",
+  "year": 1968,
+  "runtime": 175,
+  "genres": [
+    "Western"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "A Million Ways to Die in the West",
+    "year": 2014,
+    "runtime": 116,
+    "genres": [
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Wild Wild West",
+    "year": 1999,
+    "runtime": 106,
+    "genres": [
+      "Action",
+      "Western",
+      "Comedy"
+    ]
+  }
+]
