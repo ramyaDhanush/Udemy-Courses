@@ -29,3 +29,11 @@ Build encapsulated components that manage their own state, then compose them to 
 
 Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
 
+
+![hooks](./src/Images/react-lifecycle.png)
+
+![hooks](./src/Images/react-lifecycle-updating.png)
+
+![hooks](./src/Images/lifecycle2hooks.png)
+
+![hooks](./src/Images/lifecycle2hooks-1.jpg)
