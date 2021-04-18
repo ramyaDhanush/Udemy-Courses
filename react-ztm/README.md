@@ -37,3 +37,4 @@ Since component logic is written in JavaScript instead of templates, you can eas
 ![hooks](./src/Images/lifecycle2hooks.png)
 
 ![hooks](./src/Images/lifecycle2hooks-1.jpg)
+

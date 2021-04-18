@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
+import {useState, useEffect} from 'react'
+// import Card from './components/Card/Card.component.jsx'
+import CardList from './components/CardList/CardList.component.jsx'
 function App() {
+
+  const [monster, setMonster] = useState([]);
+  
+  useEffect(() => {
+    return () => {
+      fetch('https://jsonplaceholder.typicode.com/users')
+      .then(res => res.json())
+      .then(res => setMonster(res))
+      .catch(err => console.error(err));
+    };
+  },[monster]);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CardList monster = {monster}/>
+    </>
   );
 }
 
