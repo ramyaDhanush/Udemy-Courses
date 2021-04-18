@@ -19,7 +19,8 @@ function App() {
   const filteredMonster = monster.filter(m => m.name.toLowerCase().includes(searchfield.toLowerCase()));
   
   return (
-    <div style={{textAlign: 'center'}}>
+    <div className="App">
+      <h1>Monsters Rolodex</h1>
       <SearchBox searchPlaceholder="Search Monsters..." handleChange={e=> setSearchfield(e.target.value)}/>
       <CardList monster = {filteredMonster}/>
     </div>
